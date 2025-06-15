@@ -11,7 +11,7 @@ import SwiftUI
 struct WordsPaperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }

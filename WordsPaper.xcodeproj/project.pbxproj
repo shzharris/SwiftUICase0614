@@ -16,6 +16,21 @@
 			path = WordsPaper;
 			sourceTree = "<group>";
 		};
+		6FB46DCB2DFD99A3000130BE /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FB46DCC2DFD99B9000130BE /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FB46DD52DFE75A1000130BE /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +47,9 @@
 		6FB46DB42DFD998E000130BE = {
 			isa = PBXGroup;
 			children = (
+				6FB46DD52DFE75A1000130BE /* ViewModel */,
+				6FB46DCC2DFD99B9000130BE /* View */,
+				6FB46DCB2DFD99A3000130BE /* Model */,
 				6FB46DBF2DFD998E000130BE /* WordsPaper */,
 				6FB46DBE2DFD998E000130BE /* Products */,
 			);
@@ -62,6 +80,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6FB46DBF2DFD998E000130BE /* WordsPaper */,
+				6FB46DCB2DFD99A3000130BE /* Model */,
+				6FB46DCC2DFD99B9000130BE /* View */,
+				6FB46DD52DFE75A1000130BE /* ViewModel */,
 			);
 			name = WordsPaper;
 			packageProductDependencies = (
